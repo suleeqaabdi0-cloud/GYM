@@ -576,6 +576,54 @@ body {
   color: #fff;
   cursor: pointer;
 }
+/* ===== TABLET (iPad) ===== */
+@media (max-width: 1024px) {
+
+  /* HEADER */
+  .container {
+    flex-wrap: wrap;
+  }
+
+  /* TRAINING SECTION */
+  .training-section {
+    flex-direction: column;
+  }
+
+  .training-list,
+  .training-content {
+    width: 100%;
+  }
+
+  /* PROGRAM CARDS */
+  .program-boxes {
+    gap: 25px;
+  }
+
+  .program-card {
+    max-width: 100%;
+  }
+
+  /* TRAINERS */
+  .trainer-container {
+    flex-wrap: wrap;
+  }
+
+  .trainer-card {
+    width: 45%;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-map,
+  .contact-bg {
+    width: 100%;
+  }
+
+}
+
 
 /* MOBILE NAV */
 @media (max-width: 768px) {
